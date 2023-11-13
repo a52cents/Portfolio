@@ -1,0 +1,27 @@
+:root{
+    --dark-color : #0C0E17;
+    --blue-color : #2D488D;
+    --gray-color : #585B73;
+
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+}
+
+.wrapper{
+    margin: 0 0;
+}
+
+a{
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+  }
