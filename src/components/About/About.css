@@ -29,7 +29,7 @@
   border-bottom: 1px dashed gray;
 }
 
-.container {
+#topics .container {
   display: grid;
   grid-template-columns: repeat(5, minmax(242px, 242px));
   justify-content: center;

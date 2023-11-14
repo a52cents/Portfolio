@@ -1,0 +1,106 @@
+#project{
+    min-height: 100vh;
+    background: url("../../assets/BG.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#project .wrapper {
+    margin: auto;
+    width: 90%;
+    max-width: 100%;
+  }
+  #project .wrapper h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 62px; /* 187.879% */
+  }
+  #project .wrapper h2{
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 62px; /* 187.879% */
+    border-bottom: 1px dashed gray;
+  }
+
+  #project .wrapper h3{
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 62px;
+  }
+
+  #project .content-container{     
+    display: grid;
+    grid-template-columns: repeat(1, minmax(242px, 242px));
+    justify-content: center;
+    grid-gap: 30px;
+    margin: 0px 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+
+  #project .card-wrapper{
+
+    min-height: 93px;
+    perspective: 2000px;
+    perspective-origin: top;
+    cursor: pointer;
+    text-align: center;
+}
+
+#project .card{
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.65s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+#project .content-container {
+  display: grid;
+
+  grid-template-columns: repeat(1, minmax(242px, 242px));
+  justify-content: center;
+  
+  grid-gap: 30px;
+  margin: 0px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  }
+#project .content-card-front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    border-radius: 25px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+   justify-content: center;
+   align-items: center;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+    background: var(
+      --Linear-Gradient,
+      linear-gradient(180deg, #2d488d 0%, #2d488d 50%, #2d488d 100%)
+    );
+    border-radius: 25px;
+  }
+  #project .content-card-front p {
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 14.px;
+    font-style: normal;
+    font-weight: 800;
+    justify-content: center;
+  }
