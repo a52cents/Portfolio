@@ -102,5 +102,6 @@
     font-size: 14.px;
     font-style: normal;
     font-weight: 800;
+   user-select: none;
     justify-content: center;
   }
