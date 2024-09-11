@@ -33,7 +33,7 @@
   display: grid;
   grid-template-columns: repeat(5, minmax(242px, 242px));
   justify-content: center;
-  grid-gap: 30px;
+  grid-gap: 7px;
   margin: 0px 0;
   padding-top: 16px;
   padding-bottom: 16px;
