@@ -119,28 +119,3 @@
   font-weight: 400;
   line-height: 28px; /* 155.556% */
 }
-
-
-
-
-
-/* .card{
-    padding-top: 25px;
-    display: flex;
-    
-    gap: 64px;
-    padding-left: 25px;
-    perspective: 3000px;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.15s ease-in;
-}
-.content-card{
-    height: 100%;
-    overflow: hidden;
-   
-}
-
-.content-card img {
-    object-fit: cover;
-} */
