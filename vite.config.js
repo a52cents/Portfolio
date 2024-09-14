@@ -12,6 +12,7 @@ export default defineConfig({
         name:'Portfolio de Kalim Aouziou',
         short_name:'Portfolio',
         description:'Voici le portfolio professionnel de Kalim Aouziou',
+        display_override:["standalone", 'fullscreen',"minimal-ui"],
         display:'standalone'
       }
     })
