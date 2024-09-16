@@ -59,8 +59,8 @@
 #skills .content-card-front {
   display: flex;
   flex-direction: row;
-  gap: 12px;
-  justify-content: space-between;
+  gap: 1px;
+  justify-content: space-around;
   align-items: center;
   background: var(
     --Linear-Gradient,
@@ -103,14 +103,14 @@
 @media (max-width: 768px) {
   #skills .content-container {
     grid-template-columns: repeat(
-      auto-fill,
-      minmax(242px, 242px)
+      2,
+      minmax(22px, 242px)
     ); /* Une seule colonne pour les vues mobiles */
   }
   #skills .content-container2 {
     grid-template-columns: repeat(
-      auto-fill,
-      minmax(242px, 242px)
+      2,
+      minmax(22px, 242px)
     ); /* Une seule colonne pour les vues mobiles */
   }
 }
